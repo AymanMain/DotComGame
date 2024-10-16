@@ -7,7 +7,7 @@ public class SimpleDotComeGame {
 
         Scanner sc=new Scanner(System.in);
 
-        int head =(int) (Math.random()*4);
+        int head =(int) (Math.random()*5);
         int[]locs =new int[]{head,head+1,head+2};
         simple.setPositions(locs);
 
