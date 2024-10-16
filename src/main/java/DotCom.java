@@ -3,7 +3,6 @@ import java.util.ArrayList;
 public class DotCom {
 
     private ArrayList<String> positions;
-    int numOfHits=0;
     String name;
 
     public void setName(String name) {

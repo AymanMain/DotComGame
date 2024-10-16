@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class DotComBust {
     GameHelper helper=new GameHelper();
-    ArrayList<DotCom> dotComsList = new ArrayList<DotCom>();
+    ArrayList<DotCom> dotComsList = new ArrayList<>();
     int numOfGuesses = 0;
 
     public void setUpGame() {
@@ -38,6 +38,7 @@ public class DotComBust {
                 break;
             }
             if (result.equals("kill")) {
+                System.out.println("You Have Drowned "+dotComToTest.getName()+".com");
                 dotComsList.remove(dotComToTest);
                 break;
             }
